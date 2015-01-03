@@ -20,5 +20,15 @@
 window.alert("Hello")
 window.alert("how are you")
 window.alert("thank you")
+window.alert("abcd")
+function myFunction() {
+    var age,voteable;
+    age = document.getElementById("age").value;
+    voteable = (age < 18) ? "Too young":"Old enough";
+    document.getElementById("demo").innerHTML = voteable + " to vote.";
+</script>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
 </body>
 </html>
