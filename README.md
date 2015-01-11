@@ -1,2 +1,0 @@
-karthikmk.github.io
-===================
